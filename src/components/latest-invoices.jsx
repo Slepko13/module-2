@@ -13,7 +13,7 @@ export default function LatestInvoices() {
                 key={invoice.id}
                 className="flex flex-row items-center justify-between py-4"
               >
-                <div className="flex items-center">
+                <div className="flex items-center ">
                   <img
                     src={invoice.image_url}
                     alt={`${invoice.name}'s profile picture`}
